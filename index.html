@@ -12,8 +12,9 @@
 </a>
 <script type="text/javascript">
  Kakao.init('a0157ba402a55652ce0494a099be192a');
-  function sendLink() {
-    Kakao.Link.sendDefault({
+    function sendLink() {
+      Kakao.Link.sendCustom({
+                templateId: ...,   // 615133
       objectType: 'feed',
       content: {
         title: '진영♥정희 결혼식에 초대합니다',
